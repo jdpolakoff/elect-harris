@@ -69,8 +69,10 @@ class Banner extends Component {
               Show Less <FontAwesomeIcon icon="chevron-up" />
           </button>
           <div className="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt fringilla magna vitae gravida. Etiam ut enim a urna condimentum rutrum ac vitae ipsum. Sed finibus vestibulum varius. Sed pretium justo sapien. In mattis, lorem nec ultricies pretium, neque neque pretium nisi, vel sollicitudin ligula odio nec justo. In fermentum mauris vel mauris ullamcorper convallis. Nulla sit amet massa auctor risus finibus tincidunt.</p>
-            <p>Aliquam fringilla massa quis massa laoreet, congue scelerisque erat vulputate. Nullam neque tortor, pellentesque at eros vel, rhoncus posuere nisi. Duis viverra a purus et lacinia. Quisque consectetur placerat vehicula. Duis consequat, velit eu ultrices aliquet, augue libero aliquam ligula, dapibus placerat orci lorem nec mauris. Donec non ligula congue, vestibulum sem vitae, gravida ligula. Cras hendrerit facilisis leo, vel dapibus ligula placerat quis.</p>
+            <h2 className="lorem">Some Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt fringilla magna vitae gravida. Etiam ut enim a urna condimentum rutrum ac vitae ipsum. Sed finibus vestibulum varius.</p>
+            <p>Aliquam fringilla massa quis massa laoreet, congue scelerisque erat vulputate. Nullam neque tortor, pellentesque at eros vel, rhoncus posuere nisi.</p>
+            <p>Mauris a ex ut ligula condimentum feugiat.</p>
           </div>
           </div>
          }

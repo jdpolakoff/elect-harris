@@ -1,6 +1,6 @@
 To open project:
 
-git clone git@github.com:jdpolakoff/elect-harris.git
+git clone
 
 cd elect-harris
 
