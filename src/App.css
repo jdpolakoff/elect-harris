@@ -66,6 +66,9 @@ body {
 #contribute {
   background: #C72F4F;
   margin-top:-12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
@@ -138,7 +141,10 @@ form {
 #signUp {
   background: #007CB2;
   text-transform: uppercase;
-  font-weight: 700
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .or {
@@ -157,12 +163,31 @@ form {
 }
 
 @media screen and (max-width: 800px) {
+  #contribute, #signUp {
+    padding-bottom: 2rem;
+  }
+  .harrisStuff {
+    transform: scale(.8);
+  }
+}
+
+@media screen and (max-width: 700px) {
   .harrisStuff {
     margin-right:0;
   }
   .mainBannerContain {
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  .mainBannerContain  {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .harrisStuff {
+    margin-right: 1%;
   }
 }
 
