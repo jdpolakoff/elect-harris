@@ -1,32 +1,172 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.bannerContain {
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  max-width: 400px;
+}
+
+.mainBannerContain {
+  flex-grow: 20;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./img/harris.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.blueDivOne {
+  background: #005B8A;
+  flex-grow: 2;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#learnMore {
+  text-transform: uppercase;
+  background: #005B8A;
+  border: 2px solid #007CB2;
+  padding: .5rem 2rem;
+}
+
+.blueDivTwo {
+  background: #007CB2;
+  flex-grow: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2rem;
+}
+
+.blueDivTwo div {
+  margin-top:1rem;
+}
+
+#contribute {
+  background: #C72F4F;
+  margin-top:-12px;
+}
+
+.icons {
+  width: 4rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.inner {
+  height: 50%;
+}
+
+.privacy {
+  color:#fff;
+}
+
+.icons svg {
+  color: #fff;
+  font-size:1.4rem;
+}
+
+.signUp {
+  background: #007CB2;
+}
+
+.about {
+  color: #fff;
+  padding: 2rem;
+}
+
+.expanded {
+  flex-grow: 100;
+}
+
+.typeHere {
+  font-size:1rem;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.fullText {
+  position: absolute!important;
+  height: 100vh!important;
+}
+
+.callToAction {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 15rem;
+align-items: center;
+margin-top:2rem;
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  margin-bottom:2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.callToAction button {
+  width: 15rem;
+}
+
+#contribute {
+  background: #C72F4F;
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+#signUp {
+  background: #007CB2;
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+.or {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.harrisStuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:400px!important;
+  align-items: center;
+  margin-right: 20%;
+  margin-top:5%;
+}
+
+@media screen and (max-width: 602px) {
+  .harrisStuff {
+    margin-right:0;
   }
-  to {
-    transform: rotate(360deg);
+  .mainBannerContain {
+    justify-content: center;
+    align-items: center;
   }
+}
+
+.join {
+  color: #fff;
+}
+
+#transparent {
+  background-color: transparent!important;
+  color: rgba(255, 255, 255, .6);
+  border: 1px solid #005B8A;
 }
