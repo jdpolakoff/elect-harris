@@ -1,5 +1,7 @@
 To open project:
 
+git clone git@github.com:jdpolakoff/elect-harris.git
+
 cd elect-harris
 
 npm install
